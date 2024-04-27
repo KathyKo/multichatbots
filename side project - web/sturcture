@@ -1,0 +1,25 @@
+/YourApp
+    /static
+        /css
+            main.css          # 用于起始页面的样式
+            chat.css          # 用于聊天页面的样式
+        /js
+            main.js           # 用于起始页面的交互逻辑
+            chat.js           # 用于聊天页面的交互逻辑
+        /images
+            robot1.png
+            robot2.png
+            robot3.png
+            robot4.png        # 机器人的图像文件
+    /templates
+        index.html            # 起始页面，用于选择机器人
+        chat.html             # 聊天页面，用于与机器人交互
+    /bot_modules
+        __init__.py
+        bot1.py               # 第一个机器人的后端逻辑
+        bot2.py               # 第二个机器人的后端逻辑
+        bot3.py               # 第三个机器人的后端逻辑
+        bot4.py               # 第四个机器人的后端逻辑
+    openai_api.py             # 用于与 OpenAI API 通信的共享模块
+    app.py                    # Flask 应用的主文件
+    requirements.txt          # 项目依赖
