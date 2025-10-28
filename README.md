@@ -3,12 +3,9 @@
 </p>
 
 # Multichatbots
+Multichatbots is a tiny, modular Flask app that bundles multiple lightweight AI helpers behind a single web UI—currently a **Translator** (EN ↔︎ ZH-TW), a **Debugger** for code issues, a **Summarizer**, and a **General assistant**. 
 
-A minimal Flask web app that hosts multiple lightweight AI chatbots behind one interface:
-- **Translator** (EN ↔︎ ZH-TW)
-- **Debugger** (code troubleshooting)
-- **Summarizer** (text distillation)
-- **General assistant** (normal GPT)
+The project keeps things intentionally simple: a Flask server with three routes (/, /chat, /respond), a clean template-driven UI, and each bot implemented as its own module under bot_modules/. This makes it easy to understand, run locally, and extend with new bot types. 
 
 ## Project Structure
 ```text
