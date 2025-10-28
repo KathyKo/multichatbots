@@ -2,10 +2,16 @@
   <img src="https://github.com/KathyKo/multichatbots/blob/main/side%20project%20-%20web/chatbots_banner.png?raw=1" alt="Multichatbots Banner" width="900">
 </p>
 
-# Multichatbots
-Multichatbots is a tiny, modular Flask app that bundles multiple lightweight AI helpers behind a single web UI—currently a **Translator** (EN ↔︎ ZH-TW), a **Debugger** for code issues, a **Summarizer**, and a **General assistant**. 
+**Multichatbots**:  
+This project is a minimal Flask web application that hosts multiple lightweight AI chatbots behind a single, clean interface. It uses the OpenAI API to power its specialized assistants.
 
-The project keeps things intentionally simple: a Flask server with three routes (/, /chat, /respond), a clean template-driven UI, and each bot implemented as its own module under bot_modules/. This makes it easy to understand, run locally, and extend with new bot types. 
+**Key Features**:  
+The app provides four different bots, each with a specific purpose:
+
+**🤖 Translator**: Translates text between English (EN) and Traditional Chinese (ZH-TW).  
+**🐞 Debugger**: Helps troubleshoot and debug code snippets.  
+**📝 Summarizer**: Distills long pieces of text into concise summaries.  
+**🧠 General Assistant**: A general-purpose assistant for all other questions.  
 
 ## Project Structure
 ```text
